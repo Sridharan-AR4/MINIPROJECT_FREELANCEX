@@ -1,0 +1,87 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.main{
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    .headline{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        h1{
+            /* font-size: xx-large; */
+            letter-spacing: 5px;
+            word-spacing: 10px;
+            /* font-weight: 500; */
+            font-family: Arial, Helvetica, sans-serif;
+        }
+    }
+    .applogo{
+        img{
+            height: 500px;
+            width: 500px;
+            border-radius: 250px;
+            mix-blend-mode: multiply;
+            animation-name: logoanimation;
+            animation-duration: 5s;
+            animation-iteration-count: infinite;
+            animation-timing-function: ease-in-out;
+        }
+    }
+   
+    .subheadline{
+        display: flex;
+        justify-content: center;
+        margin-top: 20px;
+        margin-bottom: 50px;
+        h3{
+            letter-spacing: 3px;
+            word-spacing: 5px;
+            text-align: center;
+        }
+    }
+}
+
+@keyframes logoanimation {
+    from{
+        transform: rotateY(0deg)
+    }
+    to{
+        transform: rotateY(360deg);
+    }
+}
+.btn-primary {
+    background-color: #00CFFF; 
+    color: white;
+    border: none;
+    padding: 12px 24px; 
+    font-size: 16px; 
+    font-weight: bold; 
+    border-radius: 30px; 
+    cursor: pointer; 
+    transition: background-color 0.3s ease; 
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); 
+
+}
+
+.btn-primary:hover {
+    background-color: #009bbf; 
+}
+
+.btn-primary:active {
+    background-color: #007b9b; 
+}
+
+.btn-primary:focus {
+    outline: none;
+    box-shadow: 0 0 10px rgba(0, 207, 255, 0.5); 
+}
+
+
+
+
