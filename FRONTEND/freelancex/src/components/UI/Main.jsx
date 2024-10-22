@@ -19,7 +19,7 @@ const Main = () => {
                     </h3>
                 </div>
             </div>
-            <hr></hr>
+            
         </main>
     </>
   )

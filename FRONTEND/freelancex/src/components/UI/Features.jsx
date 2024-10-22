@@ -9,7 +9,7 @@ import fees from './images/Features/fees.jpg'
 const Features = () => {
     return (
         <>
-            <div className="features">
+            <div className="features" id='Features'>
                 <div className='featurestitle'>
                     <h1>Features</h1>
                 </div>

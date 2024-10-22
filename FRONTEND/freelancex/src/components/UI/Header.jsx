@@ -10,10 +10,10 @@ const Header = () => {
                         <h1 className='title'>FREELANCEX</h1>
                     </div>
                     <div className='leftlinks'>
-                        <h3 className='sample1'>Features</h3>
-                        <h3 className='sample1'>How it works</h3>
-                        <h3 className='sample1'>About us</h3>
-                        <h3 className='sample1'>Contact</h3>
+                        <a className='sample1' href='#Features'>Features</a>
+                        <a className='sample1' href='#HowItWorks'>How it works</a>
+                        <a className='sample1'href='#AboutUs'>About us</a>
+                        <a className='sample1' href='#Contact'>Contact</a>
                     </div>
                 </div>
                 <nav className='right'>

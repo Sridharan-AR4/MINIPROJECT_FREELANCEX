@@ -4,6 +4,8 @@ import Header from './components/UI/Header';
 import Main from './components/UI/Main';
 import HomePage from './pages/HomePage';
 import Features from './components/UI/Features';
+import Footer from './components/UI/Footer';
+import HowItWorks from './components/UI/HowItWorks';
 
 function App() {
   return (
@@ -11,6 +13,8 @@ function App() {
       {/* <Header/>
       <Main/> */}
       {/* <Features/> */}
+      {/* <Footer/> */}
+      {/* <HowItWorks/> */}
       <HomePage/>
     </div>
   );
