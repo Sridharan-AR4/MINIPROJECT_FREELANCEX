@@ -43,6 +43,8 @@
             letter-spacing: 3px;
             word-spacing: 5px;
             text-align: center;
+            color: black;
+            font-weight: 500;
         }
     }
 }

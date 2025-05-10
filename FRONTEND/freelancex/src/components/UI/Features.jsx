@@ -14,6 +14,7 @@ const Features = () => {
                     <h1>Features</h1>
                 </div>
                 <div className="featuresdiv">
+                    
                     <div className="feature">
                         <img src={crypto}></img>
                         <h3>Instant Crypto Payments</h3><p>

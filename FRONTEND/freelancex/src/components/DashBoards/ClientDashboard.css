@@ -1,0 +1,54 @@
+.client-dashboard {
+  padding: 20px;
+  background-color: #f9f9f9;
+  border-radius: 10px;
+  margin-top: 90px;
+}
+
+.dashboard-content {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  gap: 20px; /* Spacing between sections */
+}
+
+.outer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.tabs {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.tasks, .freelancers, .payments {
+  display: flex;
+  /* flex-direction: column; */
+  align-items: center;
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 10px;
+  width: 100%; /* Full width within content */
+  max-width: 350px; /* Restricts max width for better alignment */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  gap: 15px; /* Spacing within each section */
+}
+
+h2, h3 {
+  color: #00c1d4;
+}
+
+h2 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.dashboard-content > div {
+  padding-top: 20px;
+  border-top: 1px solid #ccc;
+}

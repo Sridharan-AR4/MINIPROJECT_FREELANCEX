@@ -1,0 +1,95 @@
+.freelancer-dashboard {
+  padding: 20px;
+  background-color: #f9f9f9;
+  border-radius: 10px;
+  margin-top: 90px;
+}
+
+.dashboard-content {
+  display: flex;
+  flex-direction: column;
+  padding-top: 20px;
+  border-top: 1px solid #ccc;
+}
+
+.outer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.tabs {
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+h2, h3 {
+  color: #00c1d4;
+}
+
+h2 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.available-projects-heading,
+.applied-projects-heading {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.applied-projects {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+  width: 100%;
+}
+
+.applied-project-card {
+  width: 300px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  padding: 16px;
+  background-color: #fff;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.2s ease;
+}
+
+.applied-project-card:hover {
+  transform: translateY(-5px);
+}
+
+
+.tasks {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+}
+
+.project-card {
+  width: 300px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  padding: 16px;
+  background-color: #fff;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  transition: transform 0.2s ease;
+}
+
+.project-card:hover {
+  transform: translateY(-5px);
+}
+
+.project-buttons {
+  display: flex;
+  gap: 10px;
+  margin-top: 10px;
+  justify-content: space-around;
+}

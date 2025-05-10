@@ -10,7 +10,7 @@ import Contact from '../components/UI/Contact'
 const HomePage = () => {
   return (
     <>
-        <Header/>
+        {/* <Header/> */}
         <Main/>
         <Features/>
         <HowItWorks/>

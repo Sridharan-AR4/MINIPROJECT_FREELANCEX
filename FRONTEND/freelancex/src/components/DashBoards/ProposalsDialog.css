@@ -1,0 +1,93 @@
+/* Dialog container styling */
+.MuiDialog-root {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .MuiDialog-paper {
+    width: 80%;
+    max-width: 600px;
+    padding: 20px;
+  }
+  
+  /* Dialog title styling */
+  .MuiDialogTitle-root {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #333;
+    text-align: center;
+    padding-bottom: 10px;
+  }
+  
+  /* Content styling */
+  .MuiDialogContent-root {
+    padding: 10px;
+  }
+  
+  /* Proposal item styling */
+  .proposal-item {
+    display: flex;
+    flex-direction: column;
+    border-bottom: 1px solid #ddd;
+    padding: 10px 0;
+  }
+  
+  .proposal-item:last-child {
+    border-bottom: none;
+  }
+  
+  .proposal-item p {
+    margin: 5px 0;
+  }
+  
+  .proposal-item a {
+    color: #1976d2;
+    text-decoration: none;
+  }
+  
+  .proposal-item a:hover {
+    text-decoration: underline;
+  }
+  
+  /* Button styling */
+  .MuiButton-root {
+    margin-top: 15px;
+    text-transform: none;
+  }
+  
+  .close-button {
+    background-color: #1976d2;
+    color: white;
+    font-weight: bold;
+    padding: 10px 15px;
+    width: 100%;
+    border-radius: 5px;
+  }
+  
+  .close-button:hover {
+    background-color: #135ba1;
+  }
+  .proposal {
+    border-bottom: 1px solid #ddd;
+    padding: 10px 0;
+  }
+  
+  .proposal p {
+    margin: 5px 0;
+  }
+  .proposal {
+    border-bottom: 1px solid #ddd;
+    padding: 10px 0;
+  }
+  
+  .proposal p {
+    margin: 5px 0;
+  }
+  
+  .proposal-actions {
+    display: flex;
+    gap: 10px;
+    margin-top: 10px;
+  }
+  

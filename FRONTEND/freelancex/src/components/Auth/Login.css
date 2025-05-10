@@ -1,0 +1,153 @@
+.login-container {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 300px;
+    padding: 30px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    margin: 0 auto;
+    margin-top: 200px;
+  }
+  
+  h2 {
+    color: #00c1d4;
+    margin-bottom: 20px;
+  }
+  
+  form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  input[type="email"],
+  input[type="password"] {
+    padding: 10px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+    font-size: 1rem;
+  }
+  
+  button {
+    padding: 10px;
+    background-color: #00c1d4;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 1rem;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #00a1b4;
+  }
+  
+  p {
+    margin-top: 15px;
+    font-size: 0.9rem;
+  }
+  
+  a {
+    color: #00c1d4;
+    text-decoration: none;
+  }
+  
+  a:hover {
+    text-decoration: underline;
+  }
+  
+  .remember-me {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    margin-bottom: 20px;
+    font-size: 0.9rem;
+    color: #555;
+  }
+  
+  .remember-me input {
+    margin-right: 5px; /* Adjust this to control spacing */
+    transform: scale(1.1); /* Optional: makes the checkbox a bit larger */
+  }
+  
+  .remember-me label {
+    margin: 0; /* Remove additional margin or padding */
+  }
+  
+
+  
+  /* Signup.css */
+.signup-container {
+  text-align: center;
+  margin-top: 40px;
+}
+
+.role-selection {
+  margin-top: 220px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  align-items: center;
+}
+
+.role-selection h2 {
+  font-size: 2.5rem;
+  color: #04c2c9;
+}
+
+.role-button {
+  background-color: #00cfff;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  margin: 10px;
+  border-radius: 5px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.role-button:hover {
+  background-color: #028f9a;
+}
+
+.signup-form {
+  background: #f8f9fa;
+  padding: 20px;
+  max-width: 400px;
+  margin: 0 auto;
+  margin-top: 100px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.signup-form h3 {
+  color: #04c2c9;
+  margin-bottom: 20px;
+}
+
+.signup-form input {
+  width: 100%;
+  padding: 12px;
+  margin: 10px 0;
+  border-radius: 5px;
+  border: 1px solid #ddd;
+}
+
+.submit-button {
+  background-color: #04c2c9;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 1rem;
+}
+
+.submit-button:hover {
+  background-color: #028f9a;
+}

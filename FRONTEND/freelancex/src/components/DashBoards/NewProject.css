@@ -1,0 +1,67 @@
+/* ProjectForm.css */
+
+form {
+    max-width: 600px;
+    margin: 0 auto;
+    margin-top: 150px;
+    padding: 20px;
+    background-color: #f4f6f8;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  form div {
+    margin-bottom: 15px;
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+    color: #333;
+  }
+  
+  input[type="text"],
+  input[type="number"],
+  textarea,
+  select {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 1rem;
+    color: #333;
+  }
+  
+  textarea {
+    resize: vertical;
+    min-height: 80px;
+  }
+  
+  input[type="number"]::-webkit-inner-spin-button,
+  input[type="number"]::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+  }
+  
+  button[type="submit"] {
+    width: 100%;
+    padding: 12px;
+    background-color: #00c1d4;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  button[type="submit"]:hover {
+    background-color: #00a1b4;
+  }
+  
+  button[type="submit"]:focus {
+    outline: none;
+    box-shadow: 0 0 8px rgba(0, 193, 212, 0.5);
+  }
+  

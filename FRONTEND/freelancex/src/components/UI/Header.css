@@ -17,6 +17,9 @@
         justify-content: space-between;
         gap: 40px;
         .lefttitle{
+            Link{
+                text-decoration: none;
+            }
             .title {
                 font-family: 'Poppins', sans-serif;
                 font-size: 50px;
@@ -28,6 +31,7 @@
                 letter-spacing: 3px;
                 text-align: center;
                 cursor: pointer;
+                text-decoration: none;
             }
             .title:hover {
                 transform: scale(1.05);
